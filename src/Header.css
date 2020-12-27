@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 100;
+    background: white;
+    width: 100%;
+    top: 0;
+}
+.header__icon{
+    object-fit: contain;
+    height: 60px;
+    margin-left: 20px;
+}
+.header__center{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+    max-width: fit-content;
+    padding: 10px;
+    height: 20px;
+}
+.header__center > input{
+    width: 250px;
+    border: none;
+    outline-width: 0;
+}
+.header__right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+    margin-right: 80px;
+}
+.header__right > p{
+    font-size: 12px;
+   
+}

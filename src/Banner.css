@@ -1,0 +1,42 @@
+.banner{
+    background: url("https://images.pexels.com/photos/584399/living-room-couch-interior-room-584399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") center center;
+    height: 50vh;
+    position: relative;
+    object-fit: contain;
+}
+.banner__search{
+    display: flex;
+    flex-direction: column;
+}
+.banner__searchButton{
+    background-color: white !important;
+    font-weight: 500 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+}
+.banner__info{
+    background-color: black;
+    color: white;
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.banner__info > h1 {
+    font-size: 24px;
+}
+.banner__info > h5{
+    margin-top: 10px;
+}
+.banner__info > Button{
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.banner__info > Button:hover{
+    background-color:white;
+    color: #ff7779;
+}
